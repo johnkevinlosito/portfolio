@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Intro from '../components/Intro'
 import Hero from '../components/Hero'
 import config from '../data/config'
+import Experience from '../components/Experience'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <Hero title={config.headline} />
         <div className="max-w-4xl mx-auto">
           <Intro headline={config.headline} description={config.authorDescription} social={config.social} skills={config.skills} />
+          <Experience jobs={config.jobs} />
         </div>
 
       </main>

@@ -4,10 +4,11 @@ import profile from "../public/images/avatar.jpg"
 import { FaGithub, FaLinkedin, FaDev, FaTwitter } from "react-icons/fa"
 import About from "./About"
 import Skills from "./Skills"
+import Section from "./Section"
 
 const Intro = ({ description, social, skills }) => {
   return (
-    <section className="container relative mx-auto py-12 px-4 lg:p-12 bg-white dark:bg-gray-900 -mt-24 rounded-md shadow-xs">
+    <Section class="-mt-24">
       <div className="w-full flex flex-col items-center justify-center pb-2">
         <Image
           src={profile}
@@ -55,11 +56,11 @@ const Intro = ({ description, social, skills }) => {
       </div>
 
       <div className="flex flex-col lg:flex-row item-center justify-between">
-        <About title="About" text={description} />
-        <Skills title='Skills' skills={skills} />
+        <About text={description} />
+        <Skills skills={skills} />
       </div>
 
-    </section>
+    </Section>
   )
 }
 
