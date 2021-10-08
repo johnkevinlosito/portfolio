@@ -7,6 +7,15 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Nunito', ...defaultTheme.fontFamily.sans]
+      },
+      backgroundImage: {
+        'hero-img': "url('/images/cover.jpeg')",
+      },
+      backgroundPosition: {
+        'bottom-center': 'bottom center',
+      },
+      height: {
+        '70vh': '70vh',
       }
     },
   },

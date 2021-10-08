@@ -12,7 +12,7 @@ const Navigation = () => {
     setActive(!active)
   }
   return (
-    <header className="sticky top-0 z-20 py-2 bg-white md:py-6 md:mb-6 dark:bg-gray-900 shadow-md">
+    <header className="sticky top-0 z-20 py-2 bg-white md:py-6 dark:bg-gray-900 shadow-md">
       <nav className="container px-4 mx-auto lg:max-w-4xl flex flex-col md:items-center md:justify-between md:flex-row-reverse gap-4">
         <div className="flex flex-row items-center justify-between">
           <Link href="/">

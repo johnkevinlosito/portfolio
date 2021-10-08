@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import About from '../components/About'
+import Hero from '../components/Hero'
 import config from '../data/config'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>{config.title}</title>
         <link rel="icon" href="/favicon.png" />
@@ -19,10 +20,14 @@ export default function Home() {
         <meta name="twitter:description" content={config.description} />
         <meta name="keywords" content={config.keyWords.join(`, `)} />
       </Head>
-      <main className="max-w-4xl mx-auto mt-16 antialiased">
-        <About headline={config.headline} description={config.authorDescription} />
+      <main className="antialiased">
+        <Hero title={config.headline} />
+        <div className="max-w-4xl mx-auto mt-16 ">
+          <About headline={config.headline} description={config.authorDescription} />
+        </div>
+
       </main>
 
-    </div>
+    </>
   )
 }

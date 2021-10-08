@@ -1,6 +1,6 @@
 import React from "react"
 import Image from "next/image"
-import profile from "../public/avatar.jpg"
+import profile from "../public/images/avatar.jpg"
 
 const About = ({ headline, description }) => {
   return (
