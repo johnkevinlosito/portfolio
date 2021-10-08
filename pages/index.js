@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import About from '../components/About'
+import Intro from '../components/Intro'
 import Hero from '../components/Hero'
 import config from '../data/config'
 
@@ -22,8 +22,8 @@ export default function Home() {
       </Head>
       <main className="antialiased">
         <Hero title={config.headline} />
-        <div className="max-w-4xl mx-auto mt-16 ">
-          <About headline={config.headline} description={config.authorDescription} />
+        <div className="max-w-4xl mx-auto">
+          <Intro headline={config.headline} description={config.authorDescription} social={config.social} skills={config.skills} />
         </div>
 
       </main>
