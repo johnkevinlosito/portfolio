@@ -3,6 +3,7 @@ import Intro from '../components/Intro'
 import Hero from '../components/Hero'
 import config from '../data/config'
 import Experience from '../components/Experience'
+import Repositories from '../components/Repositories'
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <Intro headline={config.headline} description={config.authorDescription} social={config.social} skills={config.skills} />
           <Experience jobs={config.jobs} />
+          <Repositories />
         </div>
 
       </main>

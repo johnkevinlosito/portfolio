@@ -26,7 +26,10 @@ module.exports = {
       },
       flex: {
         '50': '1 1 50%',
-      }
+      },
+      borderWidth: {
+        '1': '1px',
+      },
     },
   },
   variants: {
