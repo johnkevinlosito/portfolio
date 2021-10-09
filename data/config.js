@@ -123,6 +123,13 @@ module.exports = {
 
     },
   ],
+  portfolio: [
+    {
+      image: "/images/pokedex.PNG",
+      description: "Simple pokedex app built with ReactJS",
+      url: "https://pokedex.johnkevinlosito.com/"
+    },
+  ],
   social: {
     twitter: "https://twitter.com/johnkevinlosito",
     linkedin: "https://www.linkedin.com/in/johnkevinlosito",
