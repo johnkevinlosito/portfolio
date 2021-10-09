@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import config from '../data/config'
 import Experience from '../components/Experience'
 import Repositories from '../components/Repositories'
+import Certificates from '../components/Certificates'
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
           <Intro headline={config.headline} description={config.authorDescription} social={config.social} skills={config.skills} />
           <Experience jobs={config.jobs} />
           <Repositories />
+          <Certificates />
         </div>
 
       </main>
