@@ -50,6 +50,13 @@ const Navigation = () => {
               Portfolio
             </a>
           </Link>
+          <Link href="/posts">
+            <a
+              className={`font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white py-2 md:py-6  ${router.pathname == "/posts" ? "md:border-b-2 md:border-gray-900 dark:border-white" : ""}`}
+            >
+              Posts
+            </a>
+          </Link>
         </div>
 
       </nav>
