@@ -17,11 +17,11 @@ const Repositories = () => {
     <Section>
       <h1 className="text-4xl font-bold mb-6">Latest GitHub Repositories</h1>
 
-      {error && <div class=" flex justify-center items-center">
+      {error && <div className=" flex justify-center items-center">
         <p>Unable to fetch data, please try refreshing the page.</p>
       </div>}
-      {(!error && !data) && (<div class=" flex flex-col justify-center items-center">
-        <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 dark:border-white"></div>
+      {(!error && !data) && (<div className=" flex flex-col justify-center items-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 dark:border-white"></div>
         <p className="mt-4">Please wait while fetching the data...</p>
       </div>)}
       <div className="divide-y-1">

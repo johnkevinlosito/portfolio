@@ -12,6 +12,7 @@ const Portfolio = () => {
               <a
                 href={project.url}
                 target="_blank"
+                rel="noreferrer"
               >
                 <img src={project.image} className="max-w-220px object-cover object-center rounded-lg mx-auto mb-4" />
                 <p>{project.description}</p>
