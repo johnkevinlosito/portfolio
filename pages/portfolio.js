@@ -8,16 +8,16 @@ const PortfolioPage = () => {
   return (
     <>
       <Head>
-        <title>{config.title}</title>
+        <title>{`Portfolio | ${config.title}`}</title>
         <link rel="icon" href="/favicon.png" />
         <meta name="description" content={config.description} />
-        <meta property="og:title" content={config.title} />
+        <meta property="og:title" content={`Portfolio | ${config.title}`} />
         <meta property="og:description" content={config.description} />
         <meta property="og:type" content='website' />
-        <meta property="og:site_name" content={config.title} />
+        <meta property="og:site_name" content={`Portfolio | ${config.title}`} />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content={config.authorName} />
-        <meta name="twitter:title" content={config.title} />
+        <meta name="twitter:title" content={`Portfolio | ${config.title}`} />
         <meta name="twitter:description" content={config.description} />
         <meta name="keywords" content={config.keyWords.join(`, `)} />
       </Head>
