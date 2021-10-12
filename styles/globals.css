@@ -9,3 +9,43 @@
     text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6);
   }
 }
+
+.article h1,
+.article h2,
+.article h3 {
+  @apply text-2xl mb-4 mt-6 font-bold;
+}
+
+.article p {
+  @apply my-2;
+}
+
+.article ol,
+.article ul {
+  @apply ml-8;
+}
+
+.article ol {
+  @apply list-decimal;
+}
+
+.article ul {
+  @apply list-disc;
+}
+
+.article img {
+  @apply mx-auto my-8 shadow-md;
+}
+
+.article pre {
+  @apply text-white bg-gray-700 break-words overflow-x-auto;
+}
+
+.article code {
+  @apply text-white bg-gray-700 p-1;
+  word-break: break-word;
+}
+
+.article a {
+  @apply underline;
+}
