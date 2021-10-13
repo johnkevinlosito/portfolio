@@ -13,7 +13,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noreferrer" className="flex flex-col text-white dark:text-gray-800 rounded-lg overflow-hidden shadow-lg" key={project.description} >
               <div className="h-48 md:h-64 block overflow-hidden relative">
-                <Image src={project.image} loading="lazy" className="w-full h-full object-cover object-center absolute inset-0 transform hover:scale-110 transition duration-200" layout="fill" />
+                <Image src={project.image} loading="lazy" className="w-full h-full object-cover object-center absolute inset-0 transform hover:scale-110 transition duration-200" layout="fill" alt={project.description} />
               </div>
 
               <div className="flex flex-col flex-1 items-center justify-center p-4 bg-gray-900 dark:bg-white">

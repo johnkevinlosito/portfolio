@@ -14,7 +14,7 @@ const ArticlePage = ({ article }) => {
 
   const banner = (<div className="mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative h-96">
     <div className="absolute left-0 bottom-0 w-full h-full z-10" style={{ backgroundImage: 'linear-gradient(180deg,transparent,rgba(0,0,0,.7))' }} />
-    {article.cover_image && <img src={article.cover_image} className="absolute left-0 top-0 w-full h-full z-0 object-cover" />}
+    {article.cover_image && <img src={article.cover_image} className="absolute left-0 top-0 w-full h-full z-0 object-cover" alt="" />}
     <div className="p-4 absolute bottom-0 left-0 z-20">
       <span className="px-4 py-1 bg-black text-gray-200 items-center justify-center mb-2">
         {article.tag_list.join(', ')}

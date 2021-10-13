@@ -14,7 +14,7 @@ const Posts = ({ articles }) => {
             <Link href={`/posts/${convertCanonicalURLToRelative(article.canonical_url)}`} key={article.id}>
               <a className="w-full flex flex-col text-white dark:text-gray-800 rounded-lg overflow-hidden shadow-lg">
                 <div className="h-48 md:h-64 block overflow-hidden relative">
-                  <img src={article.cover_image ? article.cover_image : "/images/kamila-maciejewska-MVThvcFzVpA-unsplash.jpg"} loading="lazy" className="w-full h-full object-cover object-center absolute inset-0 transform hover:scale-110 transition duration-200" />
+                  <img src={article.cover_image ? article.cover_image : "/images/kamila-maciejewska-MVThvcFzVpA-unsplash.jpg"} loading="lazy" className="w-full h-full object-cover object-center absolute inset-0 transform hover:scale-110 transition duration-200" alt="" />
                 </div>
 
                 <div className="flex flex-col flex-1 p-4 sm:p-6 bg-gray-900 dark:bg-white">
