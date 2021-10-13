@@ -11,16 +11,13 @@ module.exports = {
       category: "Frontend",
       skillList: [
         {
-          name: 'HTML'
-        },
-        {
-          name: 'CSS'
-        },
-        {
           name: 'Javascript'
         },
         {
           name: 'ReactJS'
+        },
+        {
+          name: 'NextJS'
         },
         {
           name: 'TailwindCSS'
