@@ -34,7 +34,7 @@ const ArticlePage = ({ article }) => {
     <>
       <Head>
         <title>{`${article.title} | ${config.title}`}</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.jpg" />
         <meta name="description" content={config.description} />
         <meta property="og:title" content={`${article.title} | ${config.title}`} />
         <meta property="og:description" content={config.description} />

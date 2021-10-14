@@ -9,7 +9,7 @@ const PortfolioPage = () => {
     <>
       <Head>
         <title>{`Portfolio | ${config.title}`}</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.jpg" />
         <meta name="description" content={config.description} />
         <meta property="og:title" content={`Portfolio | ${config.title}`} />
         <meta property="og:description" content={config.description} />
