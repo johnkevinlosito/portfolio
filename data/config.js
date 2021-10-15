@@ -1,7 +1,7 @@
 module.exports = {
   title: 'John Kevin Losito',
   description: `John Kevin Losito | AWS Certified | Web Developer | Cloud | DevOps`,
-  keyWords: ['fullstack developer', 'web developer', 'personal', 'aws certified', 'devops', 'cloud'],
+  keyWords: ['fullstack developer', 'web developer', 'aws certified', 'devops', 'cloud'],
   authorName: 'John Kevin Losito',
   authorDescription: `Enthusiastic individual eager to contribute to team success through hard work, attention to detail, and excellent organizational skills. Always seeking new knowledge and actively developing new skills.`,
   headline: 'Hi! I\'m John!',

@@ -35,24 +35,22 @@ const ArticlePage = ({ article }) => {
       <Head>
         <title>{`${article.title} | ${config.title}`}</title>
         <link rel="icon" href="/favicon.jpg" />
-        <meta name="description" content={config.description} />
-        <meta property="og:title" content={`${article.title} | ${config.title}`} />
-        <meta property="og:description" content={config.description} />
+        <meta name="description" content={article.description} />
+        <meta property="og:title" content={`${article.title}`} />
+        <meta property="og:description" content={article.description} />
         <meta property="og:type" content='website' />
-        <meta property="og:site_name" content={`${article.title} | ${config.title}`} />
+        <meta property="og:site_name" content={`${config.title}`} />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content={config.authorName} />
-        <meta name="twitter:title" content={`${article.title} | ${config.title}`} />
-        <meta name="twitter:description" content={config.description} />
-        <meta name="keywords" content={config.keyWords.join(`, `)} />
+        <meta name="twitter:title" content={`${article.title}`} />
+        <meta name="twitter:description" content={article.description} />
+        <meta name="keywords" content={`${article.tag_list.join(', ')}, ${config.keyWords.join(`, `)}`} />
       </Head>
       <main className="antialiased">
         <Hero content={banner} />
         <div className="max-w-4xl mx-auto">
           <PostContent article={article} />
-
         </div>
-
       </main>
 
     </>
