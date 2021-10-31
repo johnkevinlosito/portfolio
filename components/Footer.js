@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
             <a
               href={config.social.twitter}
-              className={"transition-colors hover:text-blue-400"}
+              className={"transition-colors hover:text-gray-600"}
               target="_blank"
               rel="noreferrer"
             >
@@ -23,7 +23,7 @@ const Footer = () => {
             </a>
             <a
               href={config.social.linkedin}
-              className={"transition-colors hover:text-blue-500"}
+              className={"transition-colors hover:text-gray-600"}
               target="_blank"
               rel="noreferrer"
             >
@@ -39,7 +39,7 @@ const Footer = () => {
             </a>
             <a
               href={config.social.devto}
-              className={"transition-colors hover:text-gray-700"}
+              className={"transition-colors hover:text-gray-600"}
               target="_blank"
               rel="noreferrer"
             >
