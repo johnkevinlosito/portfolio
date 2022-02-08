@@ -21,9 +21,6 @@ module.exports = {
         },
         {
           name: 'TailwindCSS'
-        },
-        {
-          name: 'Bootstrap'
         }
       ]
     },
@@ -69,10 +66,24 @@ module.exports = {
     {
       company: "xDNA DIGITAL AGENCY INC.",
       begin: {
-        month: 'jun',
+        month: 'dec',
         year: '2021'
       },
       end: null,
+      occupation: "Front-End/React Developer",
+      description: "Develop functional and sustainable web applications. Implement continuous integration/continuous deployment (CI/CD). Conceptualizing ideas with clients. Helps with database design, creation, and management.",
+      stack: "ReactJS, NextJS, TailwindCSS, Redux Toolkit"
+
+    }, {
+      company: "xDNA DIGITAL AGENCY INC.",
+      begin: {
+        month: 'jun',
+        year: '2021'
+      },
+      end: {
+        month: 'dec',
+        year: '2021'
+      },
       occupation: "Web Developer",
       description: "Develop functional and sustainable web applications. Implement continuous integration/continuous deployment (CI/CD). Conceptualizing ideas with clients. Helps with database design, creation, and management.",
       stack: "Laravel, MySQL, TailwindCSS, WordPress, Stripe, GitLab, Plesk, Digital Ocean"

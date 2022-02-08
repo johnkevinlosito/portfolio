@@ -9,7 +9,9 @@ import Section from "./Section"
 const Intro = ({ description, social, skills }) => {
   return (
     <Section class="-mt-24">
-      <div className="w-full flex flex-col items-center justify-center pb-2">
+      <div className="w-full flex flex-col items-center justify-center pb-2 -mt-32">
+        <div className="p-2 bg-white dark:bg-gray-900 rounded-full">
+          
         <Image
           src={profile}
           alt="Profile"
@@ -19,6 +21,7 @@ const Intro = ({ description, social, skills }) => {
           height={200}
           placeholder="blur"
         />
+        </div>
         <div className="m-6 flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
           <a
             href={social.twitter}
