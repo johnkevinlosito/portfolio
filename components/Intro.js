@@ -1,6 +1,6 @@
 import React from "react"
 import Image from "next/image"
-import profile from "../public/images/avatar.jpg"
+import profile from "../public/images/profile.svg"
 import { FaGithub, FaLinkedin, FaDev, FaTwitter } from "react-icons/fa"
 import About from "./About"
 import Skills from "./Skills"
@@ -19,7 +19,6 @@ const Intro = ({ description, social, skills }) => {
           className="rounded-full"
           width={200}
           height={200}
-          placeholder="blur"
         />
         </div>
         <div className="m-6 flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">

@@ -17,10 +17,12 @@ export default function Home() {
         <meta property="og:description" content={config.description} />
         <meta property="og:type" content='website' />
         <meta property="og:site_name" content={`Home | ${config.title}`} />
+        <meta property="og:image" content="https://johnkevinlosito.com/favicon.jpg" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content={config.authorName} />
         <meta name="twitter:title" content={`Home | ${config.title}`} />
         <meta name="twitter:description" content={config.description} />
+        <meta property="twitter:image" content="https://johnkevinlosito.com/favicon.jpg" />
         <meta name="keywords" content={config.keyWords.join(`, `)} />
       </Head>
       <main className="antialiased">

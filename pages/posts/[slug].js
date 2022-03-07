@@ -40,10 +40,12 @@ const ArticlePage = ({ article }) => {
         <meta property="og:description" content={article.description} />
         <meta property="og:type" content='website' />
         <meta property="og:site_name" content={`${config.title}`} />
+        <meta property="og:image" content="https://johnkevinlosito.com/favicon.jpg" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content={config.authorName} />
         <meta name="twitter:title" content={`${article.title}`} />
         <meta name="twitter:description" content={article.description} />
+        <meta property="twitter:image" content="https://johnkevinlosito.com/favicon.jpg" />
         <meta name="keywords" content={`${article.tag_list.join(', ')}, ${config.keyWords.join(`, `)}`} />
       </Head>
       <main className="antialiased">
