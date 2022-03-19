@@ -66,7 +66,11 @@ const ArticlePage = ({ article }) => {
         <meta name="twitter:description" content={article.description} />
         <meta
           property="twitter:image"
-          content="https://johnkevinlosito.com/favicon.jpg"
+          content={
+            article.cover_image
+              ? article.cover_image
+              : "https://johnkevinlosito.com/favicon.jpg"
+          }
         />
         <meta
           name="keywords"
