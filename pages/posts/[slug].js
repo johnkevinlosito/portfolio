@@ -60,7 +60,7 @@ const ArticlePage = ({ article }) => {
               : "https://johnkevinlosito.com/favicon.jpg"
           }
         />
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content={config.authorName} />
         <meta name="twitter:title" content={`${article.title}`} />
         <meta name="twitter:description" content={article.description} />
