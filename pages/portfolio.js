@@ -25,7 +25,7 @@ const PortfolioPage = () => {
       </Head>
       <main className="antialiased">
         <Hero title="Portfolio" />
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto px-4 lg:px-0">
           <Portfolio />
         </div>
 

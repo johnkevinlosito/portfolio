@@ -39,6 +39,7 @@ const Navigation = () => {
           <Link href="/">
             <a
               className={`font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white py-2 md:py-6  ${router.pathname == "/" ? "md:border-b-2 md:border-gray-900 dark:border-white" : ""}`}
+              onClick={menuHandler}
             >
               Home
             </a>
@@ -46,6 +47,7 @@ const Navigation = () => {
           <Link href="/portfolio">
             <a
               className={`font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white py-2 md:py-6  ${router.pathname == "/portfolio" ? "md:border-b-2 md:border-gray-900 dark:border-white" : ""}`}
+              onClick={menuHandler}
             >
               Portfolio
             </a>
@@ -53,6 +55,7 @@ const Navigation = () => {
           <Link href="/posts">
             <a
               className={`font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white py-2 md:py-6  ${router.pathname == "/posts" ? "md:border-b-2 md:border-gray-900 dark:border-white" : ""}`}
+              onClick={menuHandler}
             >
               Posts
             </a>

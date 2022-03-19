@@ -42,7 +42,7 @@ const Repositories = () => {
               </div>
             </div>
 
-            <div>{repo.description}</div>
+            <div className='break-all'>{repo.description}</div>
             <div className="text-xs">
               Updated: {new Date(repo.updated_at).toUTCString()}
             </div>
