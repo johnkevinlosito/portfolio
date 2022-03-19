@@ -65,7 +65,7 @@ const ArticlePage = ({ article }) => {
         <meta name="twitter:title" content={`${article.title}`} />
         <meta name="twitter:description" content={article.description} />
         <meta
-          property="twitter:image"
+          name="twitter:image"
           content={
             article.cover_image
               ? article.cover_image
