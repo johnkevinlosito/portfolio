@@ -6,7 +6,6 @@ const PostContent = ({ article }) => {
     <Section class="-mt-24">
       <div className="px-4 lg:px-0 mt-8 max-w-screen-md mx-auto leading-relaxed">
         <div className="flex justify-center text-md my-4 italic font-bold hover:underline">
-          <a href={article.url} target="_blank" rel="noreferrer" >Also posted on Dev.to</a>
         </div>
         <div className="article" dangerouslySetInnerHTML={{ __html: article.html }} />
         <div className="flex justify-center text-md mt-10 italic font-bold hover:underline">
