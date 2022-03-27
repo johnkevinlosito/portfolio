@@ -17,14 +17,12 @@ const Experience = ({ jobs }) => {
               <div className={`absolute inset-0 h-4 w-4 transform rotate-45 bg-gray-900 dark:bg-gray-500 left-1/2 -translate-x-1/2 md:translate-x-0  -top-1 md:top-5 md:left-26 ${(index + 1) % 2 === 1 ? 'md:left-auto md:right-14' : 'md:left-14'}`} aria-hidden="true"></div>
               <div className="rounded-md border-2 border-gray-900 dark:border-gray-500 overflow-hidden bg-gray-900 dark:bg-gray-500">
                 <div className='p-4'>
-                  <h2 className="text-xl uppercase text-white font-bold ">{job.company
-                    ? `${job.occupation} at ${job.company}`
-                    : `${job.occupation}`}
-                    <br />
-                    <small className='text-xs'>
+                  {job.logo && <img src={job.logo} className="max-h-8 pb-2" />}
+                  <h2 className="text-xl text-white font-bold ">{job.company}</h2>
+                  <p className='text-base text-white font-bold '>{job.occupation}</p>
+                  <small className='text-xs uppercase text-white font-bold'>
                       ({!job.end ? 'present' : `${job.begin.month} ${job.begin.year} - ${job.end.month} ${job.end.year}`})
                     </small>
-                  </h2>
                 </div>
                 <div className="space-y-4 bg-white dark:bg-gray-900 ">
                   <p className="px-4 pt-4 text-sm">{job.description}</p>

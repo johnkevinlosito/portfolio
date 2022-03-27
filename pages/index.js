@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
       <main className="antialiased">
         <Hero title={config.headline} />
-        <div className="max-w-4xl mx-auto px-4 lg:px-0">
+        <div className="max-w-5xl mx-auto px-4 lg:px-0">
           <Intro headline={config.headline} description={config.authorDescription} social={config.social} skills={config.skills} />
           <Experience jobs={config.jobs} />
           <Repositories />

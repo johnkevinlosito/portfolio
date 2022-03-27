@@ -64,7 +64,7 @@ module.exports = {
   ],
   jobs: [
     {
-      company: "xDNA DIGITAL AGENCY INC.",
+      company: "xDNA Digital Agency Inc.",
       begin: {
         month: 'dec',
         year: '2021'
@@ -72,10 +72,11 @@ module.exports = {
       end: null,
       occupation: "Front-End/React Developer",
       description: "Develop functional and sustainable web applications. Implement continuous integration/continuous deployment (CI/CD). Conceptualizing ideas with clients. Helps with database design, creation, and management.",
-      stack: "ReactJS, NextJS, TailwindCSS, Redux Toolkit"
+      stack: "ReactJS, NextJS, TailwindCSS, Redux Toolkit",
+      logo: "/images/company/xdna.png"
 
     }, {
-      company: "xDNA DIGITAL AGENCY INC.",
+      company: "xDNA Digital Agency Inc.",
       begin: {
         month: 'jun',
         year: '2021'
@@ -86,7 +87,8 @@ module.exports = {
       },
       occupation: "Web Developer",
       description: "Develop functional and sustainable web applications. Implement continuous integration/continuous deployment (CI/CD). Conceptualizing ideas with clients. Helps with database design, creation, and management.",
-      stack: "Laravel, MySQL, TailwindCSS, WordPress, Stripe, GitLab, Plesk, Digital Ocean"
+      stack: "Laravel, MySQL, TailwindCSS, WordPress, Stripe, GitLab, Plesk, Digital Ocean",
+      logo: "/images/company/xdna.png"
 
     }, {
       company: "Groworx Philippines",
@@ -101,7 +103,7 @@ module.exports = {
       occupation: "Developer Analyst",
       description: "Performed Level 2 application support. Provided troubleshooting and analysis of issues raised. Did automation testing using TestCafe. Coordinated tasks, incident management, and application issues with the Level 3 team (SRE, QA,Scrum master). Participated in sprint planning, sprint review, and retrospective",
       stack: "Jira, GitHub,Jenkins, TestCafe, ServiceNow, GCP(Datastore, StackDriver)",
-
+      logo: "/images/company/groworx.png"
     }, {
       company: "Switch Connect",
       begin: {
@@ -115,6 +117,7 @@ module.exports = {
       occupation: "Fullstack developer",
       description: "Development and maintenance of the company’s business website (financial platform). Created/integrated own and 3rd-party APIs (e.g., Merchant Warrior, Stripe, etc.)",
       stack: "PHP, Laravel, MySQL, Javascript, Bootstrap, jQuery, AJAX",
+      logo: "/images/company/switchconnect.svg"
     }, {
       company: "Codependa Services",
       begin: {

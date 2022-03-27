@@ -81,7 +81,7 @@ const ArticlePage = ({ article }) => {
       </Head>
       <main className="antialiased">
         <Hero content={banner} />
-        <div className="max-w-4xl mx-auto px-4 lg:px-0">
+        <div className="max-w-5xl mx-auto px-4 lg:px-0">
           <PostContent article={article} />
         </div>
       </main>

@@ -27,7 +27,7 @@ const PostsPage = ({ articles }) => {
       </Head>
       <main className="antialiased">
         <Hero title="Posts" />
-        <div className="max-w-4xl mx-auto px-4 lg:px-0">
+        <div className="max-w-5xl mx-auto px-4 lg:px-0">
           <Posts articles={articles} />
         </div>
 
