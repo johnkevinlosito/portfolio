@@ -1,19 +1,19 @@
 import React from 'react'
-import SkillBadge from './Skillbadge'
+import { skills } from '../data/config'
 
-const Skills = ({ skills }) => {
+const Skills = () => {
   return (
-    <div className="text-gray-800 dark:text-white flex flex-col md:flex-50 px-4 pb-6">
-      <h1 className="text-4xl font-bold mb-6">Skills</h1>
-      {skills.map(skill => (
-        <div className="mb-4" key={skill.category}>
-          <h4 className="mb-2 text-lg font-bold" key={skill.category}>{skill.category}</h4>
-          {skill.skillList.map(list => <SkillBadge key={list.name} name={list.name} />)
-
-          }
-        </div>
-      ))}
-    </div>
+    <>
+      <p className="text-base leading-7 font-bold">Tech stack:</p>
+      <div className="my-6 flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
+        {skills.map(skill => (
+          <div key={skill.name} className="group relative flex items-center justify-center">
+            <i className={`text-[32px] transition-colors hover:text-gray-600 ${skill.icon}`}></i>
+            <span className='absolute top-3/4 z-10 w-auto p-2 m-2 min-w-max rounded-md shadow-md text-white bg-gray-800 text-xs font-bold transition-all duration-100 scale-0  group-hover:scale-100'>{skill.name}</span>
+          </div>
+        ))}
+      </div>
+    </>
   )
 }
 

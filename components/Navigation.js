@@ -13,7 +13,7 @@ const Navigation = () => {
     setActive(!active)
   }
   return (
-    <header className="sticky top-0 z-30 bg-white dark:bg-gray-900 shadow-lg">
+    <header className="sticky top-0 z-30 bg-white dark:bg-gray-900 shadow-lg mb-4">
       <nav className="container px-4 mx-auto lg:max-w-5xl flex flex-col md:items-center md:justify-between md:flex-row-reverse md:gap-4">
         <div className="flex flex-row items-center justify-between">
           <Link href="/">

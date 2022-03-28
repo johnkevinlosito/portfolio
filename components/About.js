@@ -1,11 +1,17 @@
 import React from 'react'
+import { headline, role, authorDescription } from '../data/config'
+import Skills from './Skills'
+import Social from './Social'
 
-const About = ({ text }) => {
+const About = () => {
   return (
-    <div className="text-gray-800 dark:text-white flex flex-col md:flex-50 px-4 pb-6">
-      <h1 className="text-4xl font-bold mb-6">About</h1>
-      <p className="text-base">{text}</p>
-    </div>
+    <div className="text-gray-800 dark:text-white flex flex-col md:flex-50 px-4 space-y-4">
+      <h1 className="text-5xl font-bold">{headline}</h1>
+      <h2 className='text-2xl font-bold leading-4'>{role}</h2>
+      <p className="text-base leading-7">{authorDescription}</p>
+      <Skills />
+      <Social />
+    </div >
   )
 }
 
