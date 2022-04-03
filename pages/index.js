@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Intro from '../components/Intro'
-import Hero from '../components/Hero'
 import config from '../data/config'
 import Experience from '../components/Experience'
 import Repositories from '../components/Repositories'
 import Certificates from '../components/Certificates'
+import Projects from '../components/Projects'
 
 export default function Home() {
   return (
@@ -24,11 +24,12 @@ export default function Home() {
         <meta name="twitter:description" content={config.description} />
         <meta property="twitter:image" content="https://johnkevinlosito.com/favicon.jpg" />
         <meta name="keywords" content={config.keyWords.join(`, `)} />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
       </Head>
       <main className="antialiased">
-        <Hero title={config.headline} />
         <div className="max-w-5xl mx-auto px-4 lg:px-0">
-          <Intro headline={config.headline} description={config.authorDescription} social={config.social} skills={config.skills} />
+          <Intro />
+          <Projects />
           <Experience jobs={config.jobs} />
           <Repositories />
           <Certificates />

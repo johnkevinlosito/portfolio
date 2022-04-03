@@ -3,64 +3,101 @@ module.exports = {
   description: `John Kevin Losito | AWS Certified | Web Developer | Cloud | DevOps`,
   keyWords: ['fullstack developer', 'web developer', 'aws certified', 'devops', 'cloud'],
   authorName: 'John Kevin Losito',
-  authorDescription: `Enthusiastic individual eager to contribute to team success through hard work, attention to detail, and excellent organizational skills. Always seeking new knowledge and actively developing new skills.`,
-  headline: 'Hi! I\'m John!',
+  role: 'Web and Mobile Developer',
+  authorDescription: `I'm currently working as a Frontend/React Developer at xDNA Digital Agency Inc. Self-taught mobile developer. Naturally curious, passionate, and always seeking new knowledge and actively developing new skills.`,
+  headline: 'Hi! I\'m John Kevin!',
   githubUsername: 'johnkevinlosito',
   skills: [
     {
-      category: "Frontend",
-      skillList: [
-        {
-          name: 'Javascript'
-        },
-        {
-          name: 'ReactJS'
-        },
-        {
-          name: 'NextJS'
-        },
-        {
-          name: 'TailwindCSS'
-        }
-      ]
+      name: 'Javascript',
+      icon: 'devicon-javascript-plain',
     },
     {
-      category: "Backend",
-      skillList: [
-        {
-          name: 'PHP'
-        },
-        {
-          name: 'Laravel'
-        },
-        {
-          name: 'MySQL'
-        },
-      ]
+      name: 'ReactJS',
+      icon: 'devicon-react-original',
     },
     {
-      category: "Others",
-      skillList: [
-        {
-          name: 'AWS'
-        },
-        {
-          name: 'Docker'
-        },
-        {
-          name: 'Git'
-        },
-        {
-          name: 'GitLab'
-        },
-        {
-          name: 'GitHub'
-        },
-        {
-          name: 'Jenkins'
-        }
-      ]
+      name: 'NextJS',
+      icon: 'devicon-nextjs-original',
     },
+    {
+      name: 'TailwindCSS',
+      icon: 'devicon-tailwindcss-plain',
+    },
+    {
+      name: 'PHP',
+      icon: 'devicon-php-plain',
+    },
+    {
+      name: 'Laravel',
+      icon: 'devicon-laravel-plain',
+    },
+    {
+      name: 'MySQL',
+      icon: 'devicon-mysql-plain',
+    },
+    {
+      name: 'Git',
+      icon: 'devicon-git-plain',
+    },
+    {
+      name: 'AWS',
+      icon: 'devicon-amazonwebservices-original',
+    },
+    // {
+    //   category: "Frontend",
+    //   skillList: [
+    //     {
+    //       name: 'Javascript'
+    //     },
+    //     {
+    //       name: 'ReactJS'
+    //     },
+    //     {
+    //       name: 'NextJS'
+    //     },
+    //     {
+    //       name: 'TailwindCSS'
+    //     }
+    //   ]
+    // },
+    // {
+    //   category: "Backend",
+    //   skillList: [
+    //     {
+    //       name: 'PHP'
+    //     },
+    //     {
+    //       name: 'Laravel'
+    //     },
+    //     {
+    //       name: 'MySQL'
+    //     },
+    //   ]
+    // },
+    // {
+    //   category: "Others",
+    //   skillList: [
+    //     {
+    //       name: 'AWS'
+    //     },
+    //     {
+    //       name: 'Docker'
+    //     },
+    //     {
+    //       name: 'Git'
+    //     },
+    //     {
+    //       name: 'GitLab'
+    //     },
+    //     {
+    //       name: 'GitHub'
+    //     },
+    //     {
+    //       name: 'Jenkins'
+    //     }
+    //   ]
+    // },
   ],
   jobs: [
     {
@@ -117,7 +154,7 @@ module.exports = {
       occupation: "Fullstack developer",
       description: "Development and maintenance of the company’s business website (financial platform). Created/integrated own and 3rd-party APIs (e.g., Merchant Warrior, Stripe, etc.)",
       stack: "PHP, Laravel, MySQL, Javascript, Bootstrap, jQuery, AJAX",
-      logo: "/images/company/switchconnect.svg"
+      logo: "/images/company/switchconnect.png"
     }, {
       company: "Codependa Services",
       begin: {
@@ -134,9 +171,9 @@ module.exports = {
 
     },
   ],
-  portfolio: [
+  projects: [
     {
-      image: "/images/pokedex.PNG",
+      image: "/images/projects/pokedex_transparent.png",
       description: "Simple pokedex app built with ReactJS",
       url: "https://pokedex.johnkevinlosito.com/"
     },
