@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import Hero from '../../components/Hero'
 import config from '../../data/config'
 import { getAllArticles } from '../../lib/devto';
 import Posts from '../../components/Posts';
@@ -26,7 +25,6 @@ const PostsPage = ({ articles }) => {
         <meta name="keywords" content={config.keyWords.join(`, `)} />
       </Head>
       <main className="antialiased">
-        <Hero title="Posts" />
         <div className="max-w-5xl mx-auto px-4 lg:px-0">
           <Posts articles={articles} />
         </div>

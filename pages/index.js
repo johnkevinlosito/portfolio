@@ -4,6 +4,7 @@ import config from '../data/config'
 import Experience from '../components/Experience'
 import Repositories from '../components/Repositories'
 import Certificates from '../components/Certificates'
+import Projects from '../components/Projects'
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <main className="antialiased">
         <div className="max-w-5xl mx-auto px-4 lg:px-0">
           <Intro />
+          <Projects />
           <Experience jobs={config.jobs} />
           <Repositories />
           <Certificates />

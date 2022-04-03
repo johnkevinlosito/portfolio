@@ -171,9 +171,9 @@ module.exports = {
 
     },
   ],
-  portfolio: [
+  projects: [
     {
-      image: "/images/pokedex.PNG",
+      image: "/images/projects/pokedex_transparent.png",
       description: "Simple pokedex app built with ReactJS",
       url: "https://pokedex.johnkevinlosito.com/"
     },

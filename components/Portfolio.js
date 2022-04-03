@@ -1,14 +1,14 @@
 import React from 'react'
 import Section from './Section'
 import Image from 'next/image'
-import { portfolio } from '../data/config'
+import { projects } from '../data/config'
 
 const Portfolio = () => {
   return (
     <Section class="-mt-24">
       <div className="w-full pb-2">
         <div className="flex justify-around items-center flex-wrap gap-4">
-          {portfolio.map(project => (
+          {projects.map(project => (
             <a href={project.url}
               target="_blank"
               rel="noreferrer" className="flex flex-col text-white dark:text-gray-800 rounded-lg overflow-hidden shadow-lg" key={project.description} >

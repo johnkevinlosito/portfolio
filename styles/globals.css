@@ -68,3 +68,8 @@ body {
 .article a {
   @apply underline;
 }
+
+.content a {
+  @apply underline font-bold;
+  word-break: break-word;
+}
