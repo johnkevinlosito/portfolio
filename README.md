@@ -16,12 +16,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 [https://wallis.dev/blog/adding-a-devto-powered-blog-to-a-nextjs-website](https://wallis.dev/blog/adding-a-devto-powered-blog-to-a-nextjs-website)
 
-## Used notion for the projects listing
-
-[https://dev.to/solomon04/build-a-blog-powered-by-nextjs-notion-api-57pj](https://dev.to/solomon04/build-a-blog-powered-by-nextjs-notion-api-57pj)
-
-[https://samuelkraft.com/blog/building-a-notion-blog-with-public-api](https://samuelkraft.com/blog/building-a-notion-blog-with-public-api)
-
 ---
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
