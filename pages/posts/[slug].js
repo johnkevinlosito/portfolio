@@ -5,6 +5,7 @@ import Head from "next/head";
 import config from "../../data/config";
 import { getAllArticles, getArticleFromCache } from "../../lib/devto";
 import PostContent from "../../components/PostContent";
+import MainWrapper from "../../components/MainWrapper";
 
 const cacheFile = ".dev-to-cache.json";
 
@@ -47,11 +48,9 @@ const ArticlePage = ({ article }) => {
           )}`}
         />
       </Head>
-      <main className="antialiased">
-        <div className="max-w-5xl mx-auto px-4 lg:px-0">
-          <PostContent article={article} />
-        </div>
-      </main>
+      <MainWrapper>
+        <PostContent article={article} />
+      </MainWrapper>
     </>
   );
 };

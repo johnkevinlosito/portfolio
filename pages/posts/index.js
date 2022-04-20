@@ -3,6 +3,7 @@ import Head from 'next/head'
 import config from '../../data/config'
 import { getAllArticles } from '../../lib/devto';
 import Posts from '../../components/Posts';
+import MainWrapper from '../../components/MainWrapper';
 
 const PostsPage = ({ articles }) => {
 
@@ -24,12 +25,9 @@ const PostsPage = ({ articles }) => {
         <meta property="twitter:image" content="https://johnkevinlosito.com/favicon.jpg" />
         <meta name="keywords" content={config.keyWords.join(`, `)} />
       </Head>
-      <main className="antialiased">
-        <div className="max-w-5xl mx-auto px-4 lg:px-0">
-          <Posts articles={articles} />
-        </div>
-
-      </main>
+      <MainWrapper>
+        <Posts articles={articles} />
+      </MainWrapper>
 
     </>
   )

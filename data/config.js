@@ -1,6 +1,6 @@
 module.exports = {
   title: 'John Kevin Losito',
-  description: `John Kevin Losito | AWS Certified | Web Developer | Cloud | DevOps`,
+  description: `I'm a Frontend/React Developer. Interested in web and mobile development, and cloud`,
   keyWords: ['fullstack developer', 'web developer', 'aws certified', 'devops', 'cloud'],
   authorName: 'John Kevin Losito',
   role: 'Web and Mobile Developer',
@@ -44,60 +44,6 @@ module.exports = {
       name: 'AWS',
       icon: 'devicon-amazonwebservices-original',
     },
-    // {
-    //   category: "Frontend",
-    //   skillList: [
-    //     {
-    //       name: 'Javascript'
-    //     },
-    //     {
-    //       name: 'ReactJS'
-    //     },
-    //     {
-    //       name: 'NextJS'
-    //     },
-    //     {
-    //       name: 'TailwindCSS'
-    //     }
-    //   ]
-    // },
-    // {
-    //   category: "Backend",
-    //   skillList: [
-    //     {
-    //       name: 'PHP'
-    //     },
-    //     {
-    //       name: 'Laravel'
-    //     },
-    //     {
-    //       name: 'MySQL'
-    //     },
-    //   ]
-    // },
-    // {
-    //   category: "Others",
-    //   skillList: [
-    //     {
-    //       name: 'AWS'
-    //     },
-    //     {
-    //       name: 'Docker'
-    //     },
-    //     {
-    //       name: 'Git'
-    //     },
-    //     {
-    //       name: 'GitLab'
-    //     },
-    //     {
-    //       name: 'GitHub'
-    //     },
-    //     {
-    //       name: 'Jenkins'
-    //     }
-    //   ]
-    // },
   ],
   jobs: [
     {
@@ -140,7 +86,7 @@ module.exports = {
       occupation: "Developer Analyst",
       description: "Performed Level 2 application support. Provided troubleshooting and analysis of issues raised. Did automation testing using TestCafe. Coordinated tasks, incident management, and application issues with the Level 3 team (SRE, QA,Scrum master). Participated in sprint planning, sprint review, and retrospective",
       stack: "Jira, GitHub,Jenkins, TestCafe, ServiceNow, GCP(Datastore, StackDriver)",
-      logo: "/images/company/groworx.png"
+      logo: "/images/company/groworx.jpg"
     }, {
       company: "Switch Connect",
       begin: {

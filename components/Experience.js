@@ -1,7 +1,8 @@
 import React from 'react'
 import Section from './Section'
+import { jobs } from '../data/config'
 
-const Experience = ({ jobs }) => {
+const Experience = () => {
   return (
     <Section>
       <h2 className='text-4xl font-bold mb-6'>Experience</h2>

@@ -6,7 +6,8 @@ import { useEffect } from 'react'
 import Script from 'next/script'
 import { useRouter } from 'next/router'
 import * as gtag from '../lib/gtag'
-
+import { DefaultSeo } from 'next-seo'
+import { title, description } from '../data/config'
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
   useEffect(() => {
@@ -21,6 +22,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
         strategy="afterInteractive"
@@ -39,6 +41,35 @@ function MyApp({ Component, pageProps }) {
             });
           `,
         }}
+      />
+      <DefaultSeo
+        title={`${title}`}
+        description={description}
+        openGraph={{
+          type: 'website',
+          locale: 'en_US',
+          url: 'https://johnkevinlosito.com',
+          site_name: `${title}`,
+          images: [
+            {
+              alt: `${title}`,
+              height: 600,
+              url: 'https://johnkevinlosito.com/favicon.jpg',
+              width: 600
+            }
+          ]
+        }}
+        twitter={{
+          handle: '@johnkevinlosito',
+          site: '@johnkevinlosito',
+          cardType: 'summary_large_image'
+        }}
+        additionalLinkTags={[
+          {
+            rel: 'icon',
+            href: '/favicon.jpg',
+          },
+        ]}
       />
       <ThemeProvider attribute="class" enableSystem={false} defaultTheme="system">
         <Navigation />

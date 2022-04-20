@@ -1,16 +1,30 @@
 import Head from 'next/head'
 import Intro from '../components/Intro'
-import config from '../data/config'
-import Experience from '../components/Experience'
+import { social, title } from '../data/config'
 import Repositories from '../components/Repositories'
-import Certificates from '../components/Certificates'
 import Projects from '../components/Projects'
+import { NextSeo, SocialProfileJsonLd } from 'next-seo'
+import MainWrapper from '../components/MainWrapper'
 
 export default function Home() {
   return (
     <>
+      <NextSeo
+        canonical='https://johnkevinlosito.com'
+      />
+      <SocialProfileJsonLd
+        type='Person'
+        name='John Kevin Losito'
+        url='https://johnkevinlosito.com'
+        sameAs={[
+          social.devto,
+          social.github,
+          social.twitter,
+          social.linkedin
+        ]}
+      />
       <Head>
-        <title>{`Home | ${config.title}`}</title>
+        {/* <title>{`Home | ${config.title}`}</title>
         <link rel="icon" href="/favicon.jpg" />
         <meta name="description" content={config.description} />
         <meta property="og:title" content={`Home | ${config.title}`} />
@@ -23,19 +37,14 @@ export default function Home() {
         <meta name="twitter:title" content={`Home | ${config.title}`} />
         <meta name="twitter:description" content={config.description} />
         <meta property="twitter:image" content="https://johnkevinlosito.com/favicon.jpg" />
-        <meta name="keywords" content={config.keyWords.join(`, `)} />
+        <meta name="keywords" content={config.keyWords.join(`, `)} /> */}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
       </Head>
-      <main className="antialiased">
-        <div className="max-w-5xl mx-auto px-4 lg:px-0">
-          <Intro />
-          <Projects />
-          <Experience jobs={config.jobs} />
-          <Repositories />
-          <Certificates />
-        </div>
-
-      </main>
+      <MainWrapper>
+        <Intro />
+        <Projects />
+        <Repositories />
+      </MainWrapper>
 
     </>
   )

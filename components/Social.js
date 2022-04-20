@@ -12,6 +12,7 @@ const Social = () => {
           className={"transition-colors hover:text-gray-600"}
           target="_blank"
           rel="noreferrer"
+          title='Twitter'
         >
           <FaTwitter size="32" />
         </a>
@@ -20,6 +21,7 @@ const Social = () => {
           className={"transition-colors hover:text-gray-600"}
           target="_blank"
           rel="noreferrer"
+          title='LinkedIn'
         >
           <FaLinkedin size="32" />
         </a>
@@ -28,6 +30,7 @@ const Social = () => {
           className={"transition-colors hover:text-gray-600"}
           target="_blank"
           rel="noreferrer"
+          title='GitHub'
         >
           <FaGithub size="32" />
         </a>
@@ -36,6 +39,7 @@ const Social = () => {
           className={"transition-colors hover:text-gray-600"}
           target="_blank"
           rel="noreferrer"
+          title='DEV.to'
         >
           <FaDev size="32" />
         </a>
