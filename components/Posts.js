@@ -12,12 +12,12 @@ const Posts = ({ articles }) => {
         {articles && articles.length > 0 ? (
           articles.map((article, index) => (
             <Link href={`/posts/${convertCanonicalURLToRelative(article.canonical_url)}`} key={article.id}>
-              <a className={`w-full flex flex-col text-white dark:text-gray-800 rounded-lg overflow-hidden shadow-lg ${index == 0 && 'md:col-span-2'}`}>
+              <a className={`w-full flex flex-col text-gray-800 dark:text-white rounded-lg overflow-hidden shadow-lg dark:shadow-sm dark:shadow-white ${index == 0 && 'md:col-span-2'}`}>
                 <div className={`h-48 ${index == 0 ? 'md:h-64' : 'md:h-44'} block overflow-hidden relative`}>
                   <img src={article.cover_image ? article.cover_image : '/images/kamila-maciejewska-MVThvcFzVpA-unsplash.jpg'} loading='lazy' className='w-full h-full object-cover object-center absolute inset-0' alt='' />
                 </div>
 
-                <div className='flex flex-col flex-1 p-4 bg-gray-900 dark:bg-white'>
+                <div className='flex flex-col flex-1 p-4 '>
                   <span className='font-light text-xs'>
                     {moment(article.published_timestamp).format('MMMM DD, YYYY')}
                   </span>

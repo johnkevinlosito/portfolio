@@ -13,11 +13,11 @@ const Projects = () => {
             <div className=''>
               <img src={project.image} loading='lazy' layout='fill' alt={project.name} />
             </div>
-            <div className='px-6 md:px-10 text-base leading-7 space-y-5'>
+            <div className='px-2 md:px-10 text-base leading-7 space-y-5'>
               <h3 className='text-3xl font-bold'>{project.name}</h3>
               <p dangerouslySetInnerHTML={{ __html: project.description }} className='content' />
               <p><b>Technologies:</b> {project.tech.join(', ')}</p>
-              <div className='flex flex-row items-center py-3 gap-2'>
+              <div className='flex flex-col md:flex-row items-start py-3 gap-2'>
                 {project.url && <ProjectLink link={project.url} type='url' />}
                 {project.github && <ProjectLink link={project.github} type='repo' />}
               </div>

@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <>
       <p className="text-base leading-7 font-bold">Tech stack:</p>
-      <div className="my-6 flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
+      <div className="my-6 flex flex-wrap pt-2 sm:space-x-4 space-x-2 sm:space-y-4 space-y-2 font-medium lg:pt-0">
         {skills.map(skill => (
           <div key={skill.name} className="group relative flex items-center justify-center">
             <i className={`text-[32px] transition-colors hover:text-gray-600 ${skill.icon}`}></i>
