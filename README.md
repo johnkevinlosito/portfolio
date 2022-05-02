@@ -1,3 +1,5 @@
+This is my personal portfolio website built with NextJS and TailwindCSS. Blog posts were statically generated which fetches the data from <a href="https://dev.to/" target="_blank" rel="noreferrer">dev.to</a>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

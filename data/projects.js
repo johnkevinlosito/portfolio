@@ -1,6 +1,19 @@
 module.exports = {
     projects: [
         {
+            name: 'Portfolio',
+            image: '/images/projects/portfolio.png',
+            tech: ['ReactJS', 'NextJS', 'TailwindCSS', 'Dev.to API'],
+            tags: ['personal'],
+            description: `The website you are currently viewing.
+            <br /><br />
+            This is my personal portfolio website built with NextJS and TailwindCSS. Blog posts were statically generated which fetches the data from <a href="https://dev.to/" target="_blank" rel="noreferrer">dev.to</a>`,
+            url: '',
+            appStore: '',
+            playStore: '',
+            github: 'https://github.com/johnkevinlosito/portfolio',
+        },
+        {
             name: 'Pokedex',
             image: '/images/projects/pokedex_transparent.png',
             tech: ['ReactJS', 'CSS modules', 'PokeApi.co'],

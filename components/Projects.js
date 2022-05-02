@@ -10,7 +10,7 @@ const Projects = () => {
       <div className='space-y-10'>
         {projects.map((project, index) => (
           <div className={`container mx-auto pt-10 flex flex-col ${(index + 1) % 2 === 1 ? 'md:flex-row' : 'md:flex-row-reverse'}`} key={`project${index}`}>
-            <div className=''>
+            <div className='w-full'>
               <img src={project.image} loading='lazy' layout='fill' alt={project.name} />
             </div>
             <div className='px-2 md:px-10 text-base leading-7 space-y-5'>
