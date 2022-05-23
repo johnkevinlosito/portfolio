@@ -6,10 +6,10 @@ const Social = () => {
   return (
     <>
       <p className="text-base leading-7 font-bold">Social links:</p>
-      <div className="my-6 flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
+      <div className="my-6 flex flex-wrap pt-2 font-medium lg:pt-0">
         <a
           href={social.twitter}
-          className={"transition-colors hover:text-gray-600"}
+          className={"transition-colors hover:text-gray-600 sm:mx-2 mx-1 sm:my-2 my-1"}
           target="_blank"
           rel="noreferrer"
           title='Twitter'
@@ -18,7 +18,7 @@ const Social = () => {
         </a>
         <a
           href={social.linkedin}
-          className={"transition-colors hover:text-gray-600"}
+          className={"transition-colors hover:text-gray-600 sm:mx-2 mx-1 sm:my-2 my-1"}
           target="_blank"
           rel="noreferrer"
           title='LinkedIn'
@@ -27,7 +27,7 @@ const Social = () => {
         </a>
         <a
           href={social.github}
-          className={"transition-colors hover:text-gray-600"}
+          className={"transition-colors hover:text-gray-600 sm:mx-2 mx-1 sm:my-2 my-1"}
           target="_blank"
           rel="noreferrer"
           title='GitHub'
@@ -36,7 +36,7 @@ const Social = () => {
         </a>
         <a
           href={social.devto}
-          className={"transition-colors hover:text-gray-600"}
+          className={"transition-colors hover:text-gray-600 sm:mx-2 mx-1 sm:my-2 my-1"}
           target="_blank"
           rel="noreferrer"
           title='DEV.to'
