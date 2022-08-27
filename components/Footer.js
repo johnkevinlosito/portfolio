@@ -18,6 +18,7 @@ const Footer = () => {
               className={"transition-colors hover:text-gray-600"}
               target="_blank"
               rel="noreferrer"
+              title='Twitter'
             >
               <FaTwitter size="24" />
             </a>
@@ -26,6 +27,7 @@ const Footer = () => {
               className={"transition-colors hover:text-gray-600"}
               target="_blank"
               rel="noreferrer"
+              title='LinkedIn'
             >
               <FaLinkedin size="24" />
             </a>
@@ -34,6 +36,7 @@ const Footer = () => {
               className={"transition-colors hover:text-gray-600"}
               target="_blank"
               rel="noreferrer"
+              title='GitHub'
             >
               <FaGithub size="24" />
             </a>
@@ -42,6 +45,7 @@ const Footer = () => {
               className={"transition-colors hover:text-gray-600"}
               target="_blank"
               rel="noreferrer"
+              title='DEV.to'
             >
               <FaDev size="24" />
             </a>
