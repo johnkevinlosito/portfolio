@@ -11,7 +11,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div className={`container mx-auto pt-10 flex flex-col ${(index + 1) % 2 === 1 ? 'md:flex-row' : 'md:flex-row-reverse'}`} key={`project${index}`}>
             <div className='w-full'>
-              <img src={project.image} loading='lazy' layout='fill' alt={project.name} />
+              <img src={project.image} loading='lazy' layout='fill' alt={project.name} className="transition-all ease-linear hover:scale-125" />
             </div>
             <div className='px-2 md:px-10 text-base leading-7 space-y-5'>
               <h3 className='text-3xl font-bold'>{project.name}</h3>

@@ -4,7 +4,7 @@ module.exports = {
   keyWords: ['fullstack developer', 'web developer', 'aws certified', 'devops', 'cloud'],
   authorName: 'John Kevin Losito',
   role: 'Web and Mobile Developer',
-  authorDescription: `I'm currently working as a Frontend/React Developer at xDNA Digital Agency Inc. Self-taught mobile developer. Naturally curious, passionate, and always seeking new knowledge and actively developing new skills.`,
+  authorDescription: `I'm currently working as a Front End Engineer at ConnectOS. Self-taught mobile developer. Naturally curious, passionate, and always seeking new knowledge and actively developing new skills.`,
   headline: 'Hi! I\'m John Kevin!',
   githubUsername: 'johnkevinlosito',
   skills: [

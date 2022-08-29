@@ -1,13 +1,28 @@
 module.exports = [
     {
         company: {
+            link: 'https://connectos.co',
+            logo: '/images/company/connectos.jpg',
+            name: 'ConnectOS'
+        },
+        positions: [
+            {
+                dateFinish: null,
+                dateStart: '08/18/2022',
+                title: 'Front End Engineer',
+                description: '',
+                stack: 'ReactJS, NextJS, TailwindCSS, Redux Toolkit'
+            }
+        ]
+    }, {
+        company: {
             link: 'https://xdnainteractive.com',
             logo: '/images/company/xdna.png',
             name: 'xDNA Digital Agency Inc.'
         },
         positions: [
             {
-                dateFinish: null,
+                dateFinish: '08/13/2022',
                 dateStart: '12/21/2021',
                 title: 'Front-End/React Developer',
                 description: 'Develop functional and sustainable web applications. Implement continuous integration/continuous deployment (CI/CD). Conceptualizing ideas with clients. Helps with database design, creation, and management.',
